@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.flex--center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    
+}
+
+.app{
+    width: 70%;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.15);
+}
+
+.entrada{
+    margin-bottom: 30px;
+}
+
+.teclado{
+    border: 1px solid black;
+    background-color: rgb(73, 73, 73);
+    padding: 40px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 7px;
+
+}
+
+.fileira-teclas{
+    display: flex;
+    gap: 7px;
+}
+
+.tecla{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.tecla:active{
+    transform: scale(0.9);
+}
+
+.tab{
+    width: 70px;
+}
+
+.caps{
+    width: 75px;
+}
+
+.shift{
+    width: 55px;
+}
+
+.backspace{
+    width: 80px;
+}
